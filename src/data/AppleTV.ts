@@ -311,6 +311,8 @@ import MatchboxTheMovie from "../assets/CoverArt/Apple_TV_Matchbox_Key_Art.png_1
 import SmallProphets from "../assets/CoverArt/Apple_TV_Small_Prophets_Key_Art.jpg";
 import SistersGrimm from "../assets/CoverArt/Apple_TV_The_Sisters_Grimm_key_art_16x9.png";
 import TheLastFirstWinter from "../assets/CoverArt/Apple_TV_The_Last_First_Winter_K2_key_art_16x9.png";
+import Brothers from "../assets/CoverArt/Apple_TV_Brothers_key_art_16x9.png";
+import WantedMan from "../assets/CoverArt/Apple_TV_The_Wanted_Man_Key_Art.jpg";
 
 export default [
   {
@@ -1072,7 +1074,7 @@ export default [
     image: BerlinER,
     isShow: true,
     episodes: 8,
-    episodesComplete: 0,
+    episodesComplete: 1,
     length: "1 Season",
   },
   {
@@ -1099,7 +1101,7 @@ export default [
     image: Surface,
     isShow: true,
     episodes: 16,
-    episodesComplete: 14,
+    episodesComplete: 16,
     length: "2 Seasons",
   },
   {
@@ -1414,7 +1416,7 @@ export default [
     image: LandOfWomen,
     isShow: true,
     episodes: 6,
-    episodesComplete: 0,
+    episodesComplete: 2,
     length: "1 Season",
   },
   {
@@ -1937,7 +1939,7 @@ export default [
     image: Liaison,
     isShow: true,
     episodes: 6,
-    episodesComplete: 0,
+    episodesComplete: 1,
     length: "1 Season",
   },
   {
@@ -2069,7 +2071,7 @@ export default [
     image: Echo3,
     isShow: true,
     episodes: 10,
-    episodesComplete: 0,
+    episodesComplete: 1,
     length: "1 Season",
   },
   {
@@ -2529,7 +2531,7 @@ export default [
     image: ShrinkNextDoor,
     isShow: true,
     episodes: 8,
-    episodesComplete: 0,
+    episodesComplete: 8,
     length: "1 Season",
   },
   {
@@ -2555,7 +2557,7 @@ export default [
     image: SnoopyInSpace,
     isShow: true,
     episodes: 24,
-    episodesComplete: 16,
+    episodesComplete: 18,
     length: "2 Seasons",
   },
   {
@@ -3013,6 +3015,22 @@ export default [
     id: 313,
     title: "The Last First: Winter K2",
     image: TheLastFirstWinter,
+    isShow: true,
+    length: "Coming Soon",
+  },
+  {
+    id: 314,
+    title: "Brothers",
+    image: Brothers,
+    isShow: true,
+    episodes: 3,
+    episodesComplete: 2,
+    length: "1 Season",
+  },
+  {
+    id: 315,
+    title: "The Wanted Man",
+    image: WantedMan,
     isShow: true,
     length: "Coming Soon",
   },

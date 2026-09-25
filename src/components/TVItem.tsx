@@ -220,6 +220,7 @@ const CompletionStatus = ({ completion }: { completion: number }) => {
 
 const TVItem = () => {
   const [searchQuery, setSearchQuery] = useState("");
+  const [sortMethod, setSortMethod] = useState("");
 
   // 3. Compute the filtered list on every render
   const filteredItems = AppleTVData.filter((item) =>
