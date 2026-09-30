@@ -305,7 +305,7 @@ import SnoopyUnleashed from "../assets/CoverArt/Apple_TV_Snoopy_Unleashed_key_ar
 import WayOfTheWarriorKid from "../assets/CoverArt/Apple_TV_Way_Of_The_Warrior_Kid_Key_Art.jpg";
 import TwelveTwelveTwelve from "../assets/CoverArt/Apple_TV_12_12_12_Key_Art_16_9.png";
 import BeingHeumann from "../assets/CoverArt/Apple_TV_Being_Heumann_key_art_16_9.png";
-import Nocturne from "../assets/CoverArt/Apple_TV_Nocturne_key_art.webp";
+import Nocturne from "../assets/CoverArt/Apple_TV_Nocturne_key_art_16x9.png";
 import Tenzing from "../assets/CoverArt/Apple_TV_Tenzing_key_art_16_9.png";
 import MatchboxTheMovie from "../assets/CoverArt/Apple_TV_Matchbox_Key_Art.png_16_9.png";
 import SmallProphets from "../assets/CoverArt/Apple_TV_Small_Prophets_Key_Art.jpg";
@@ -1416,7 +1416,7 @@ export default [
     image: LandOfWomen,
     isShow: true,
     episodes: 6,
-    episodesComplete: 2,
+    episodesComplete: 6,
     length: "1 Season",
   },
   {
@@ -2071,7 +2071,7 @@ export default [
     image: Echo3,
     isShow: true,
     episodes: 10,
-    episodesComplete: 1,
+    episodesComplete: 2,
     length: "1 Season",
   },
   {
@@ -2557,7 +2557,7 @@ export default [
     image: SnoopyInSpace,
     isShow: true,
     episodes: 24,
-    episodesComplete: 18,
+    episodesComplete: 24,
     length: "2 Seasons",
   },
   {
