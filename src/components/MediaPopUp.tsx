@@ -114,8 +114,6 @@ type MediaPopUpProps = {
   isMediaOpen: boolean;
   selectedMediaId: number | null;
   onCloseMedia: () => void;
-  isSortingOpen: boolean;
-  onCloseSorting: () => void;
 };
 
 const PopUp = ({
@@ -145,6 +143,33 @@ const PopUp = ({
   if (!selectedMedia) {
     return null;
   }
+
+  const getProgress = () => {
+    if (selectedMedia.isShow) {
+      const totalEpisodes = selectedMedia.episodes ?? 1;
+      return Number(
+        (((selectedMedia.episodesComplete ?? 0) / totalEpisodes) * 100).toFixed(
+          2,
+        ),
+      );
+    }
+
+    return selectedMedia.completion ?? 0;
+  };
+
+  const getStatusLabel = () => {
+    const progress = getProgress();
+
+    if (progress >= 100) {
+      return "Finished";
+    }
+
+    if (progress > 0) {
+      return "In Progress";
+    }
+
+    return "Not Started";
+  };
 
   return (
     <Wrap>
@@ -189,22 +214,20 @@ const PopUp = ({
                     type="text"
                     id="episodes"
                     name="episodes"
-                    placeholder={selectedMedia.episodes}
+                    placeholder={String(selectedMedia.episodes ?? "")}
                   ></NumberInput>
                   <NumberInput
                     type="number"
                     id="episodesComplete"
                     name="episodesComplete"
-                    placeholder={selectedMedia.episodesComplete}
+                    placeholder={String(selectedMedia.episodesComplete ?? "")}
                   ></NumberInput>
                 </VStack>
               ) : (
                 <>
                   <Li>Movie</Li>
                   <Li>{selectedMedia.length}</Li>
-                  <Li>
-                    {selectedMedia.completion ? "Finished" : "Not Started"}
-                  </Li>
+                  <Li>{getStatusLabel()}</Li>
                 </>
               )}
             </ul>
@@ -222,9 +245,7 @@ const PopUp = ({
                 <>
                   <Li>Movie</Li>
                   <Li>{selectedMedia.length}</Li>
-                  <Li>
-                    {selectedMedia.completion ? "Finished" : "Not Started"}
-                  </Li>
+                  <Li>{getStatusLabel()}</Li>
                 </>
               )}
             </ul>

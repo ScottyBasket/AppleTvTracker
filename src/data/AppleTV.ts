@@ -1965,7 +1965,7 @@ export default [
     image: HelloTomorrow,
     isShow: true,
     episodes: 10,
-    episodesComplete: 0,
+    episodesComplete: 3,
     length: "1 Season",
   },
   {

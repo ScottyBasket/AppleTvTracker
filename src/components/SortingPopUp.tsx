@@ -1,8 +1,6 @@
 import styled from "styled-components";
 import ExitBlue from "../assets/negative.png";
 import { useEffect } from "react";
-import { useState } from "react";
-import AppleTVData from "../data/AppleTV";
 
 const Wrap = styled.div`
   position: fixed;
@@ -62,63 +60,12 @@ const Quit = styled.img`
   }
 `;
 
-const Li = styled.li`
-  list-style-type: none;
-  padding-bottom: 5px;
-`;
-
-const Image = styled.img`
-  width: fit-content;
-  height: 200px;
-  border-radius: 15px;
-  margin-right: 20px;
-`;
-
-const H3 = styled.h3`
-  padding-bottom: 7px;
-`;
-
-const Input = styled.input`
-  margin-right: 10px;
-`;
-
-const HStack = styled.div`
-  display: flex;
-  flex-direction: row;
-  padding: 0;
-  margin: 0;
-`;
-
-const VStack = styled.div`
-  display: flex;
-  flex-direction: column;
-`;
-
-const NumberInput = styled.input`
-  margin: 5px 0;
-  padding: 5px 2px;
-`;
-
-const TextInput = styled.input`
-  margin: 5px 0;
-  padding: 5px 2px;
-`;
-
-const Label = styled.label`
-  margin: 5px 0;
-  padding-right: 15px;
-  font-size: 14px;
-`;
-
-type MediaPopUpProps = {
-  isMediaOpen: boolean;
-  selectedMediaId: number | null;
-  onCloseMedia: () => void;
+type SortingPopUpProps = {
   isSortingOpen: boolean;
   onCloseSorting: () => void;
 };
 
-const SortingPopUp = ({ isSortingOpen, onCloseSorting }: MediaPopUpProps) => {
+const SortingPopUp = ({ isSortingOpen, onCloseSorting }: SortingPopUpProps) => {
   useEffect(() => {
     if (isSortingOpen) {
       document.body.style.overflow = "hidden";

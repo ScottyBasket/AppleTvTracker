@@ -213,19 +213,33 @@ const CompletionStatus = ({ completion }: { completion: number }) => {
   }
 };
 
-// const filters = (item<Object>) => {
+const getMediaProgress = (item: (typeof AppleTVData)[number]) => {
+  if (item.isShow) {
+    const totalEpisodes = item.episodes ?? 1;
+    return Number(
+      (((item.episodesComplete ?? 0) / totalEpisodes) * 100).toFixed(2),
+    );
+  }
 
-//   return filters;
-// };
+  return item.completion ?? 0;
+};
+
+const isMediaComplete = (item: (typeof AppleTVData)[number]) => {
+  if (item.isShow) {
+    return (item.episodesComplete ?? 0) >= (item.episodes ?? 0);
+  }
+
+  return (item.completion ?? 0) >= 100;
+};
 
 const TVItem = () => {
   const [searchQuery, setSearchQuery] = useState("");
-  const [sortMethod, setSortMethod] = useState("");
 
-  // 3. Compute the filtered list on every render
   const filteredItems = AppleTVData.filter((item) =>
     item.title.toLowerCase().includes(searchQuery.toLowerCase()),
-  ).sort((a, b) => a.title.localeCompare(b.title));
+  )
+    .filter((item) => !isMediaComplete(item))
+    .sort((a, b) => a.title.localeCompare(b.title));
 
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [isMediaPopupOpen, setIsMediaPopupOpen] = useState(false);
@@ -307,19 +321,7 @@ const TVItem = () => {
               </Text>
 
               <Progress>
-                <CompletionStatus
-                  completion={
-                    item.isShow
-                      ? Number(
-                          (
-                            ((item.episodesComplete ?? 0) /
-                              (item.episodes ?? 1)) *
-                            100
-                          ).toFixed(2),
-                        )
-                      : (item.completion ?? 0)
-                  }
-                />
+                <CompletionStatus completion={getMediaProgress(item)} />
                 <P
                   style={{
                     paddingLeft: "0px",
