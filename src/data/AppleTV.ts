@@ -313,6 +313,7 @@ import SistersGrimm from "../assets/CoverArt/Apple_TV_The_Sisters_Grimm_key_art_
 import TheLastFirstWinter from "../assets/CoverArt/Apple_TV_The_Last_First_Winter_K2_key_art_16x9.png";
 import Brothers from "../assets/CoverArt/Apple_TV_Brothers_key_art_16x9.png";
 import WantedMan from "../assets/CoverArt/Apple_TV_The_Wanted_Man_Key_Art.jpg";
+import AwkwafinaUnlikelyCook from "../assets/CoverArt/Apple_TV_The_Unlikely_Cook_with_Awkwafina_key_art_16x9.webp";
 
 export default [
   {
@@ -407,7 +408,7 @@ export default [
     title: "Dark Matter",
     image: DarkMatter,
     isShow: true,
-    episodes: 12,
+    episodes: 19,
     episodesComplete: 9,
     length: "2 Seasons",
   },
@@ -1939,7 +1940,7 @@ export default [
     image: Liaison,
     isShow: true,
     episodes: 6,
-    episodesComplete: 1,
+    episodesComplete: 3,
     length: "1 Season",
   },
   {
@@ -1965,7 +1966,7 @@ export default [
     image: HelloTomorrow,
     isShow: true,
     episodes: 10,
-    episodesComplete: 3,
+    episodesComplete: 7,
     length: "1 Season",
   },
   {
@@ -3031,6 +3032,13 @@ export default [
     id: 315,
     title: "The Wanted Man",
     image: WantedMan,
+    isShow: true,
+    length: "Coming Soon",
+  },
+  {
+    id: 316,
+    title: "Awkwafina: The Unlikely Cook",
+    image: AwkwafinaUnlikelyCook,
     isShow: true,
     length: "Coming Soon",
   },
