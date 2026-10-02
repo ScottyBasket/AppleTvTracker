@@ -314,7 +314,9 @@ import TheLastFirstWinter from "../assets/CoverArt/Apple_TV_The_Last_First_Winte
 import Brothers from "../assets/CoverArt/Apple_TV_Brothers_key_art_16x9.png";
 import WantedMan from "../assets/CoverArt/Apple_TV_The_Wanted_Man_Key_Art.jpg";
 import AwkwafinaUnlikelyCook from "../assets/CoverArt/Apple_TV_The_Unlikely_Cook_with_Awkwafina_key_art_16x9.webp";
-
+import CampSnoopy from "../assets/CoverArt/Apple_TV_Camp_Snoopy_Key_Art_16_9.webp";
+import VelvetUnderground from "../assets/CoverArt/Apple_TV_The_Velvet_Underground_key_art_16_9.webp";
+import DropsOfGod from "../assets/CoverArt/Apple_TV_Drops_Of_God_key_art_16x9.webp";
 export default [
   {
     id: 1,
@@ -1575,7 +1577,7 @@ export default [
     title: "Snoopy Presents Welcome Home, Franklin",
     image: WelcomeHomeFranklin,
     isShow: false,
-    completion: 0,
+    completion: 100,
     length: "39min",
   },
   {
@@ -1720,7 +1722,7 @@ export default [
     title: "Snoopy Presents One-of-a-Kind Marcie",
     image: SnoopyPresentsOneOfAKindMarcie,
     isShow: false,
-    completion: 0,
+    completion: 100,
     length: "39min",
   },
   {
@@ -2072,7 +2074,7 @@ export default [
     image: Echo3,
     isShow: true,
     episodes: 10,
-    episodesComplete: 6,
+    episodesComplete: 10,
     length: "1 Season",
   },
   {
@@ -2210,7 +2212,7 @@ export default [
     image: CentralPark,
     isShow: true,
     episodes: 39,
-    episodesComplete: 1,
+    episodesComplete: 5,
     length: "3 Seasons",
   },
   {
@@ -2394,8 +2396,8 @@ export default [
     title: "Snoopy Presents: It's The Small Things, Charlie Brown",
     image: SmallThingsCharlieBrown,
     isShow: false,
-    completion: 0,
-    length: "38min",
+    completion: 100,
+    length: "44min",
   },
   {
     id: 239,
@@ -2591,7 +2593,7 @@ export default [
     title: "Blush",
     image: Blush,
     isShow: false,
-    completion: 0,
+    completion: 100,
     length: "10min",
   },
   {
@@ -2953,7 +2955,7 @@ export default [
     id: 304,
     title: "Snoopy Unleashed",
     image: SnoopyUnleashed,
-    isShow: true,
+    isShow: false,
     length: "Coming Soon",
   },
   {
@@ -3010,14 +3012,17 @@ export default [
     title: "The Sisters Grimm",
     image: SistersGrimm,
     isShow: true,
-    length: "Coming Soon",
+    episodes: 12,
+    episodesComplete: 0,
+    length: "2 Seasons",
   },
   {
     id: 313,
     title: "The Last First: Winter K2",
     image: TheLastFirstWinter,
-    isShow: true,
-    length: "Coming Soon",
+    isShow: false,
+    completion: 0,
+    length: "1h 37min",
   },
   {
     id: 314,
@@ -3041,5 +3046,31 @@ export default [
     image: AwkwafinaUnlikelyCook,
     isShow: true,
     length: "Coming Soon",
+  },
+  {
+    id: 317,
+    title: "Snoopy Presents: Camp Snoopy",
+    image: CampSnoopy,
+    isShow: true,
+    episodes: 26,
+    episodesComplete: 0,
+    length: "2 Seasons",
+  },
+  {
+    id: 318,
+    title: "The Velvet Underground",
+    image: VelvetUnderground,
+    isShow: false,
+    completion: 0,
+    length: "2h 0min",
+  },
+  {
+    id: 319,
+    title: "Drops of God",
+    image: DropsOfGod,
+    isShow: false,
+    episodes: 16,
+    episodesComplete: 0,
+    length: "2 Seasons",
   },
 ];

@@ -238,7 +238,7 @@ const TVItem = () => {
   const filteredItems = AppleTVData.filter((item) =>
     item.title.toLowerCase().includes(searchQuery.toLowerCase()),
   )
-    // .filter((item) => !isMediaComplete(item))
+    .filter((item) => !isMediaComplete(item))
     .sort((a, b) => a.title.localeCompare(b.title));
 
   const [isPopupOpen, setIsPopupOpen] = useState(false);
