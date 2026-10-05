@@ -2212,7 +2212,7 @@ export default [
     image: CentralPark,
     isShow: true,
     episodes: 39,
-    episodesComplete: 5,
+    episodesComplete: 18,
     length: "3 Seasons",
   },
   {
