@@ -308,7 +308,7 @@ import BeingHeumann from "../assets/CoverArt/Apple_TV_Being_Heumann_key_art_16_9
 import Nocturne from "../assets/CoverArt/Apple_TV_Nocturne_key_art_16x9.png";
 import Tenzing from "../assets/CoverArt/Apple_TV_Tenzing_key_art_16_9.png";
 import MatchboxTheMovie from "../assets/CoverArt/Apple_TV_Matchbox_Key_Art.png_16_9.png";
-import SmallProphets from "../assets/CoverArt/Apple_TV_Small_Prophets_Key_Art.jpg";
+import SmallProphets from "../assets/CoverArt/Apple_TV_Small_Prophets_key_art_16_9.png";
 import SistersGrimm from "../assets/CoverArt/Apple_TV_The_Sisters_Grimm_key_art_16x9.png";
 import TheLastFirstWinter from "../assets/CoverArt/Apple_TV_The_Last_First_Winter_K2_key_art_16x9.png";
 import Brothers from "../assets/CoverArt/Apple_TV_Brothers_key_art_16x9.png";
@@ -317,6 +317,8 @@ import AwkwafinaUnlikelyCook from "../assets/CoverArt/Apple_TV_The_Unlikely_Cook
 import CampSnoopy from "../assets/CoverArt/Apple_TV_Camp_Snoopy_Key_Art_16_9.webp";
 import VelvetUnderground from "../assets/CoverArt/Apple_TV_The_Velvet_Underground_key_art_16_9.webp";
 import DropsOfGod from "../assets/CoverArt/Apple_TV_Drops_Of_God_key_art_16x9.webp";
+import Causeway from "../assets/CoverArt/causeway.webp";
+import Prodigies from "../assets/CoverArt/Apple_TV_Prodigies_Key_Art_16_9.jpg";
 export default [
   {
     id: 1,
@@ -340,8 +342,8 @@ export default [
     title: "Slow Horses",
     image: SlowHorses,
     isShow: true,
-    episodes: 31,
-    episodesComplete: 30,
+    episodes: 36,
+    episodesComplete: 31,
     length: "5 Seasons",
   },
   {
@@ -358,7 +360,7 @@ export default [
     image: LastSeen,
     isShow: true,
     episodes: 6,
-    episodesComplete: 3,
+    episodesComplete: 6,
     length: "1 Season",
   },
   {
@@ -393,9 +395,9 @@ export default [
     title: "Where's Wanda?",
     image: WheresWanda,
     isShow: true,
-    episodes: 8,
+    episodes: 16,
     episodesComplete: 0,
-    length: "1 Season",
+    length: "2 Seasons",
   },
   {
     id: 10,
@@ -447,7 +449,7 @@ export default [
     image: TedLasso,
     isShow: true,
     episodes: 42,
-    episodesComplete: 41,
+    episodesComplete: 42,
     length: "4 Seasons",
   },
   {
@@ -874,8 +876,8 @@ export default [
     title: "Snoopy Presents A Summer Musical",
     image: SummerMusical,
     isShow: false,
-    completion: 0,
-    length: "40min",
+    completion: 100,
+    length: "45min",
   },
   {
     id: 65,
@@ -946,7 +948,7 @@ export default [
     image: Buccaneers,
     isShow: true,
     episodes: 16,
-    episodesComplete: 4,
+    episodesComplete: 13,
     length: "2 Seasons",
   },
   {
@@ -1906,7 +1908,7 @@ export default [
     image: Extrapolations,
     isShow: true,
     episodes: 8,
-    episodesComplete: 0,
+    episodesComplete: 8,
     length: "1 Season",
   },
   {
@@ -1942,7 +1944,7 @@ export default [
     image: Liaison,
     isShow: true,
     episodes: 6,
-    episodesComplete: 3,
+    episodesComplete: 6,
     length: "1 Season",
   },
   {
@@ -2212,7 +2214,7 @@ export default [
     image: CentralPark,
     isShow: true,
     episodes: 39,
-    episodesComplete: 18,
+    episodesComplete: 39,
     length: "3 Seasons",
   },
   {
@@ -2997,15 +2999,18 @@ export default [
     id: 310,
     title: "Matchbox The Movie",
     image: MatchboxTheMovie,
-    isShow: true,
-    length: "Coming Soon",
+    isShow: false,
+    completion: 100,
+    length: "2h 6min",
   },
   {
     id: 311,
     title: "Small Prophets",
     image: SmallProphets,
     isShow: true,
-    length: "Coming Soon",
+    episodes: 6,
+    episodesComplete: 3,
+    length: "1 Season",
   },
   {
     id: 312,
@@ -3030,7 +3035,7 @@ export default [
     image: Brothers,
     isShow: true,
     episodes: 8,
-    episodesComplete: 4,
+    episodesComplete: 5,
     length: "1 Season",
   },
   {
@@ -3068,9 +3073,24 @@ export default [
     id: 319,
     title: "Drops of God",
     image: DropsOfGod,
-    isShow: false,
+    isShow: true,
     episodes: 16,
     episodesComplete: 0,
     length: "2 Seasons",
+  },
+  {
+    id: 320,
+    title: "Causeway",
+    image: Causeway,
+    isShow: false,
+    completion: 0,
+    length: "1h 34min",
+  },
+  {
+    id: 321,
+    title: "Prodigies",
+    image: Prodigies,
+    isShow: false,
+    length: "Coming Soon",
   },
 ];
