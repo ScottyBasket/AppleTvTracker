@@ -302,7 +302,7 @@ import ChasingMichelinStars from "../assets/CoverArt/Apple_TV_Knife_Edge_Chasing
 import TheSavant from "../assets/CoverArt/Apple_TV_The_Savant_key_art_16_9.png";
 import Neuromancer from "../assets/CoverArt/Apple_TV_Neuromancer_Case_key_art_16x9.png";
 import SnoopyUnleashed from "../assets/CoverArt/Apple_TV_Snoopy_Unleashed_key_art.jpg";
-import WayOfTheWarriorKid from "../assets/CoverArt/Apple_TV_Way_Of_The_Warrior_Kid_Key_Art.jpg";
+import WayOfTheWarriorKid from "../assets/CoverArt/Apple_TV_Way_of_the_Warrior_Kid_key_art_16_9.png";
 import TwelveTwelveTwelve from "../assets/CoverArt/Apple_TV_12_12_12_Key_Art_16_9.png";
 import BeingHeumann from "../assets/CoverArt/Apple_TV_Being_Heumann_key_art_16_9.png";
 import Nocturne from "../assets/CoverArt/Apple_TV_Nocturne_key_art_16x9.png";
@@ -313,12 +313,14 @@ import SistersGrimm from "../assets/CoverArt/Apple_TV_The_Sisters_Grimm_key_art_
 import TheLastFirstWinter from "../assets/CoverArt/Apple_TV_The_Last_First_Winter_K2_key_art_16x9.png";
 import Brothers from "../assets/CoverArt/Apple_TV_Brothers_key_art_16x9.png";
 import WantedMan from "../assets/CoverArt/Apple_TV_The_Wanted_Man_Key_Art.jpg";
-import AwkwafinaUnlikelyCook from "../assets/CoverArt/Apple_TV_The_Unlikely_Cook_with_Awkwafina_key_art_16x9.webp";
+import AwkwafinaUnlikelyCook from "../assets/CoverArt/Apple_TV_Awkwafina_The_Unlikely_Cook_key_art_16_9.png";
 import CampSnoopy from "../assets/CoverArt/Apple_TV_Camp_Snoopy_Key_Art_16_9.webp";
 import VelvetUnderground from "../assets/CoverArt/Apple_TV_The_Velvet_Underground_key_art_16_9.webp";
 import DropsOfGod from "../assets/CoverArt/Apple_TV_Drops_Of_God_key_art_16x9.webp";
 import Causeway from "../assets/CoverArt/causeway.webp";
 import Prodigies from "../assets/CoverArt/Apple_TV_Prodigies_Key_Art_16_9.jpg";
+import FraggleRockHolidayGift from "../assets/CoverArt/Apple_TV_Fraggle_Rock_A_Holiday_Gift_key_art.jpg";
+import FleetwoodMacTheChain from "../assets/CoverArt/Apple_TV_Fleetwood_Mac_The_Chain_key_art_16x9.jpg";
 export default [
   {
     id: 1,
@@ -440,7 +442,7 @@ export default [
     image: WomenInBLue,
     isShow: true,
     episodes: 16,
-    episodesComplete: 1,
+    episodesComplete: 3,
     length: "2 Seasons",
   },
   {
@@ -913,7 +915,7 @@ export default [
     isShow: true,
     episodes: 40,
     episodesComplete: 0,
-    length: "5 Seasons",
+    length: "4 Seasons",
   },
   {
     id: 69,
@@ -948,7 +950,7 @@ export default [
     image: Buccaneers,
     isShow: true,
     episodes: 16,
-    episodesComplete: 13,
+    episodesComplete: 16,
     length: "2 Seasons",
   },
   {
@@ -1079,7 +1081,7 @@ export default [
     image: BerlinER,
     isShow: true,
     episodes: 8,
-    episodesComplete: 1,
+    episodesComplete: 8,
     length: "1 Season",
   },
   {
@@ -1742,7 +1744,7 @@ export default [
     image: Physical,
     isShow: true,
     episodes: 30,
-    episodesComplete: 0,
+    episodesComplete: 5,
     length: "3 Seasons",
   },
   {
@@ -1821,7 +1823,7 @@ export default [
     image: HighDesert,
     isShow: true,
     episodes: 8,
-    episodesComplete: 0,
+    episodesComplete: 8,
     length: "1 Season",
   },
   {
@@ -2986,14 +2988,17 @@ export default [
     title: "Nocturne",
     image: Nocturne,
     isShow: true,
-    length: "Coming Soon",
+    episodes: 10,
+    episodesComplete: 2,
+    length: "1 Season",
   },
   {
     id: 309,
     title: "Tenzing",
     image: Tenzing,
     isShow: true,
-    length: "Coming Soon",
+    completion: 0,
+    length: "2h 5min",
   },
   {
     id: 310,
@@ -3009,7 +3014,7 @@ export default [
     image: SmallProphets,
     isShow: true,
     episodes: 6,
-    episodesComplete: 3,
+    episodesComplete: 5,
     length: "1 Season",
   },
   {
@@ -3035,7 +3040,7 @@ export default [
     image: Brothers,
     isShow: true,
     episodes: 8,
-    episodesComplete: 5,
+    episodesComplete: 7,
     length: "1 Season",
   },
   {
@@ -3075,7 +3080,7 @@ export default [
     image: DropsOfGod,
     isShow: true,
     episodes: 16,
-    episodesComplete: 0,
+    episodesComplete: 4,
     length: "2 Seasons",
   },
   {
@@ -3090,6 +3095,20 @@ export default [
     id: 321,
     title: "Prodigies",
     image: Prodigies,
+    isShow: false,
+    length: "Coming Soon",
+  },
+  {
+    id: 322,
+    title: "Fraggle Rock: A Holiday Gift",
+    image: FraggleRockHolidayGift,
+    isShow: false,
+    length: "Coming Soon",
+  },
+  {
+    id: 323,
+    title: "Fleetwood Mac: The Chain",
+    image: FleetwoodMacTheChain,
     isShow: false,
     length: "Coming Soon",
   },
