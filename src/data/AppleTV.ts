@@ -321,6 +321,7 @@ import Causeway from "../assets/CoverArt/causeway.webp";
 import Prodigies from "../assets/CoverArt/Apple_TV_Prodigies_Key_Art_16_9.jpg";
 import FraggleRockHolidayGift from "../assets/CoverArt/Apple_TV_Fraggle_Rock_A_Holiday_Gift_key_art.jpg";
 import FleetwoodMacTheChain from "../assets/CoverArt/Apple_TV_Fleetwood_Mac_The_Chain_key_art_16x9.jpg";
+import DaysOfSnoopy from "../assets/CoverArt/Apple_TV_12_Days_of_Snoopy_key_art_16x9.png";
 export default [
   {
     id: 1,
@@ -379,18 +380,18 @@ export default [
     title: "Bad Monkey",
     image: BadMonkey,
     isShow: true,
-    episodes: 10,
+    episodes: 20,
     episodesComplete: 10,
-    length: "1 Season",
+    length: "2 Seasons",
   },
   {
     id: 8,
     title: "Stick",
     image: Stick,
     isShow: true,
-    episodes: 10,
-    episodesComplete: 10,
-    length: "1 Season",
+    episodes: 20,
+    episodesComplete: 12,
+    length: "2 Seasons",
   },
   {
     id: 9,
@@ -771,7 +772,7 @@ export default [
   },
   {
     id: 52,
-    title: "Down Cemetary Road",
+    title: "Down Cemetery Road",
     image: DownCemetaryRoad,
     isShow: true,
     episodes: 8,
@@ -1179,7 +1180,7 @@ export default [
     image: PrimeTarget,
     isShow: true,
     episodes: 8,
-    episodesComplete: 1,
+    episodesComplete: 3,
     length: "1 Season",
   },
   {
@@ -1744,7 +1745,7 @@ export default [
     image: Physical,
     isShow: true,
     episodes: 30,
-    episodesComplete: 5,
+    episodesComplete: 30,
     length: "3 Seasons",
   },
   {
@@ -2945,14 +2946,14 @@ export default [
     id: 302,
     title: "The Savant",
     image: TheSavant,
-    isShow: true,
+    isShow: false,
     length: "Coming Soon",
   },
   {
     id: 303,
     title: "Neuromancer",
     image: Neuromancer,
-    isShow: true,
+    isShow: false,
     length: "Coming Soon",
   },
   {
@@ -2966,21 +2967,21 @@ export default [
     id: 305,
     title: "Way of the Warrior Kid",
     image: WayOfTheWarriorKid,
-    isShow: true,
+    isShow: false,
     length: "Coming Soon",
   },
   {
     id: 306,
     title: "12 12 12",
     image: TwelveTwelveTwelve,
-    isShow: true,
+    isShow: false,
     length: "Coming Soon",
   },
   {
     id: 307,
     title: "Being Heumann",
     image: BeingHeumann,
-    isShow: true,
+    isShow: false,
     length: "Coming Soon",
   },
   {
@@ -3014,7 +3015,7 @@ export default [
     image: SmallProphets,
     isShow: true,
     episodes: 6,
-    episodesComplete: 5,
+    episodesComplete: 6,
     length: "1 Season",
   },
   {
@@ -3040,21 +3041,21 @@ export default [
     image: Brothers,
     isShow: true,
     episodes: 8,
-    episodesComplete: 7,
+    episodesComplete: 8,
     length: "1 Season",
   },
   {
     id: 315,
     title: "The Wanted Man",
     image: WantedMan,
-    isShow: true,
+    isShow: false,
     length: "Coming Soon",
   },
   {
     id: 316,
     title: "Awkwafina: The Unlikely Cook",
     image: AwkwafinaUnlikelyCook,
-    isShow: true,
+    isShow: false,
     length: "Coming Soon",
   },
   {
@@ -3080,7 +3081,7 @@ export default [
     image: DropsOfGod,
     isShow: true,
     episodes: 16,
-    episodesComplete: 4,
+    episodesComplete: 6,
     length: "2 Seasons",
   },
   {
@@ -3109,6 +3110,13 @@ export default [
     id: 323,
     title: "Fleetwood Mac: The Chain",
     image: FleetwoodMacTheChain,
+    isShow: false,
+    length: "Coming Soon",
+  },
+  {
+    id: 324,
+    title: "Snoopy Presents: 12 Days of Snoopy",
+    image: DaysOfSnoopy,
     isShow: false,
     length: "Coming Soon",
   },
