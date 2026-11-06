@@ -1180,7 +1180,7 @@ export default [
     image: PrimeTarget,
     isShow: true,
     episodes: 8,
-    episodesComplete: 3,
+    episodesComplete: 8,
     length: "1 Season",
   },
   {
@@ -2990,7 +2990,7 @@ export default [
     image: Nocturne,
     isShow: true,
     episodes: 10,
-    episodesComplete: 2,
+    episodesComplete: 3,
     length: "1 Season",
   },
   {
@@ -3055,8 +3055,10 @@ export default [
     id: 316,
     title: "Awkwafina: The Unlikely Cook",
     image: AwkwafinaUnlikelyCook,
-    isShow: false,
-    length: "Coming Soon",
+    isShow: true,
+    episodes: 8,
+    episodesComplete: 2,
+    length: "1 Season",
   },
   {
     id: 317,
