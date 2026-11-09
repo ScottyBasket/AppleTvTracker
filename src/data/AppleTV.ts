@@ -619,7 +619,7 @@ export default [
     image: MonarchLegacyOfMonsters,
     isShow: true,
     episodes: 20,
-    episodesComplete: 19,
+    episodesComplete: 20,
     length: "2 Seasons",
   },
   {
@@ -730,11 +730,11 @@ export default [
   },
   {
     id: 47,
-    title: "The First Snow of Fraggle Rock",
+    title: "Fraggle Rock:The First Snow of Fraggle Rock",
     image: FirstSnowFraggleRock,
     isShow: false,
-    completion: 0,
-    length: "34min",
+    completion: 100,
+    length: "42min",
   },
   {
     id: 48,
@@ -1615,7 +1615,7 @@ export default [
     title: "Hannah Waddingham Home For Christmas",
     image: HannahWaddinghamHomeForChristmas,
     isShow: false,
-    completion: 0,
+    completion: 100,
     length: "44min",
   },
   {
@@ -2043,7 +2043,7 @@ export default [
     title: "The Boy, the Mole, the Fox and the Horse",
     image: BoyMoleFoxHorse,
     isShow: false,
-    completion: 0,
+    completion: 100,
     length: "34min",
   },
   {
@@ -2497,7 +2497,7 @@ export default [
     title: "Mariah's Christmas: The Magic Continues",
     image: MariahsChristmasTheMagicContinues,
     isShow: false,
-    completion: 0,
+    completion: 100,
     length: "18min",
   },
   {
@@ -2505,7 +2505,7 @@ export default [
     title: "Snoopy Presents: For Auld Lang Syne",
     image: ForAuldLangSyne,
     isShow: false,
-    completion: 0,
+    completion: 100,
     length: "38min",
   },
   {
