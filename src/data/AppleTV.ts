@@ -319,7 +319,7 @@ import VelvetUnderground from "../assets/CoverArt/Apple_TV_The_Velvet_Undergroun
 import DropsOfGod from "../assets/CoverArt/Apple_TV_Drops_Of_God_key_art_16x9.webp";
 import Causeway from "../assets/CoverArt/causeway.webp";
 import Prodigies from "../assets/CoverArt/Apple_TV_Prodigies_Key_Art_16_9.jpg";
-import FraggleRockHolidayGift from "../assets/CoverArt/Apple_TV_Fraggle_Rock_A_Holiday_Gift_key_art.jpg";
+import FraggleRockHolidayGift from "../assets/CoverArt/Apple_TV_Fraggle_Rock_A_Holiday_Gift_key_art_16_9.png";
 import FleetwoodMacTheChain from "../assets/CoverArt/Apple_TV_Fleetwood_Mac_The_Chain_key_art_16x9.jpg";
 import DaysOfSnoopy from "../assets/CoverArt/Apple_TV_12_Days_of_Snoopy_key_art_16x9.png";
 export default [
@@ -443,7 +443,7 @@ export default [
     image: WomenInBLue,
     isShow: true,
     episodes: 16,
-    episodesComplete: 3,
+    episodesComplete: 4,
     length: "2 Seasons",
   },
   {
@@ -495,7 +495,7 @@ export default [
     image: CapeFear,
     isShow: true,
     episodes: 10,
-    episodesComplete: 0,
+    episodesComplete: 2,
     length: "1 Season",
   },
   {
@@ -993,7 +993,7 @@ export default [
     image: Murderbot,
     isShow: true,
     episodes: 10,
-    episodesComplete: 0,
+    episodesComplete: 2,
     length: "1 Season",
   },
   {
@@ -1623,7 +1623,7 @@ export default [
     title: "The Velveteen Rabbit",
     image: TheVelveteenRabbit,
     isShow: false,
-    completion: 0,
+    completion: 100,
     length: "44min",
   },
   {
@@ -3083,7 +3083,7 @@ export default [
     image: DropsOfGod,
     isShow: true,
     episodes: 16,
-    episodesComplete: 6,
+    episodesComplete: 8,
     length: "2 Seasons",
   },
   {
