@@ -1658,7 +1658,7 @@ export default [
     image: LessonsInChemistry,
     isShow: true,
     episodes: 8,
-    episodesComplete: 0,
+    episodesComplete: 2,
     length: "1 Season",
   },
   {
@@ -1797,7 +1797,7 @@ export default [
     image: TheSnoopyShow,
     isShow: true,
     episodes: 39,
-    episodesComplete: 0,
+    episodesComplete: 8,
     length: "3 Seasons",
   },
   {
@@ -2752,7 +2752,7 @@ export default [
     title: "Mariah Carey's: Magical Christmas Special",
     image: MariahCareysMagicalChristmasSpecial,
     isShow: false,
-    completion: 0,
+    completion: 100,
     length: "43min",
   },
   {
