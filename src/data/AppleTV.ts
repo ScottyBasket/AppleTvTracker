@@ -390,7 +390,7 @@ export default [
     image: Stick,
     isShow: true,
     episodes: 20,
-    episodesComplete: 12,
+    episodesComplete: 13,
     length: "2 Seasons",
   },
   {
@@ -495,7 +495,7 @@ export default [
     image: CapeFear,
     isShow: true,
     episodes: 10,
-    episodesComplete: 2,
+    episodesComplete: 3,
     length: "1 Season",
   },
   {
@@ -993,7 +993,7 @@ export default [
     image: Murderbot,
     isShow: true,
     episodes: 10,
-    episodesComplete: 2,
+    episodesComplete: 10,
     length: "1 Season",
   },
   {
