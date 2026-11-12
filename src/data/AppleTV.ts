@@ -322,6 +322,7 @@ import Prodigies from "../assets/CoverArt/Apple_TV_Prodigies_Key_Art_16_9.jpg";
 import FraggleRockHolidayGift from "../assets/CoverArt/Apple_TV_Fraggle_Rock_A_Holiday_Gift_key_art_16_9.png";
 import FleetwoodMacTheChain from "../assets/CoverArt/Apple_TV_Fleetwood_Mac_The_Chain_key_art_16x9.jpg";
 import DaysOfSnoopy from "../assets/CoverArt/Apple_TV_12_Days_of_Snoopy_key_art_16x9.png";
+import ShesFine from "../assets/CoverArt/Apple_TV_Shes_Fine_Key_Art_16_9.jpg";
 export default [
   {
     id: 1,
@@ -495,7 +496,7 @@ export default [
     image: CapeFear,
     isShow: true,
     episodes: 10,
-    episodesComplete: 3,
+    episodesComplete: 6,
     length: "1 Season",
   },
   {
@@ -1658,7 +1659,7 @@ export default [
     image: LessonsInChemistry,
     isShow: true,
     episodes: 8,
-    episodesComplete: 2,
+    episodesComplete: 8,
     length: "1 Season",
   },
   {
@@ -3119,6 +3120,13 @@ export default [
     id: 324,
     title: "Snoopy Presents: 12 Days of Snoopy",
     image: DaysOfSnoopy,
+    isShow: false,
+    length: "Coming Soon",
+  },
+  {
+    id: 325,
+    title: "She's Fine",
+    image: ShesFine,
     isShow: false,
     length: "Coming Soon",
   },
