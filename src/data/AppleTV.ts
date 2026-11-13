@@ -916,7 +916,7 @@ export default [
     image: Acapulco,
     isShow: true,
     episodes: 40,
-    episodesComplete: 0,
+    episodesComplete: 1,
     length: "4 Seasons",
   },
   {
