@@ -444,7 +444,7 @@ export default [
     image: WomenInBLue,
     isShow: true,
     episodes: 16,
-    episodesComplete: 4,
+    episodesComplete: 5,
     length: "2 Seasons",
   },
   {
@@ -496,7 +496,7 @@ export default [
     image: CapeFear,
     isShow: true,
     episodes: 10,
-    episodesComplete: 6,
+    episodesComplete: 10,
     length: "1 Season",
   },
   {
@@ -558,7 +558,7 @@ export default [
     image: CriminalRecord,
     isShow: true,
     episodes: 16,
-    episodesComplete: 0,
+    episodesComplete: 2,
     length: "2 Seasons",
   },
   {
@@ -2975,15 +2975,17 @@ export default [
     id: 306,
     title: "12 12 12",
     image: TwelveTwelveTwelve,
-    isShow: false,
-    length: "Coming Soon",
+    isShow: true,
+    episodes: 8,
+    episodesComplete: 2,
+    length: "1 Season",
   },
   {
     id: 307,
     title: "Being Heumann",
     image: BeingHeumann,
     isShow: false,
-    length: "Coming Soon",
+    length: "2h 7min",
   },
   {
     id: 308,
@@ -2991,7 +2993,7 @@ export default [
     image: Nocturne,
     isShow: true,
     episodes: 10,
-    episodesComplete: 3,
+    episodesComplete: 4,
     length: "1 Season",
   },
   {
@@ -3058,7 +3060,7 @@ export default [
     image: AwkwafinaUnlikelyCook,
     isShow: true,
     episodes: 8,
-    episodesComplete: 2,
+    episodesComplete: 3,
     length: "1 Season",
   },
   {
@@ -3121,7 +3123,8 @@ export default [
     title: "Snoopy Presents: 12 Days of Snoopy",
     image: DaysOfSnoopy,
     isShow: false,
-    length: "Coming Soon",
+    completion: 100,
+    length: "32 Min",
   },
   {
     id: 325,
