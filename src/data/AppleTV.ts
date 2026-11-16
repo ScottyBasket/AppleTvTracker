@@ -916,7 +916,7 @@ export default [
     image: Acapulco,
     isShow: true,
     episodes: 40,
-    episodesComplete: 1,
+    episodesComplete: 2,
     length: "4 Seasons",
   },
   {
@@ -1337,7 +1337,7 @@ export default [
     title: "Napoleon The Director's Cut",
     image: NapoleonDirectorsCut,
     isShow: false,
-    completion: 0,
+    completion: 100,
     length: "3h 24min",
   },
   {
