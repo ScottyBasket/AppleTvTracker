@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import ExitBlue from "../assets/negative.png";
+import ExitBlue from "/src/assets/Negative.png";
 import { useEffect } from "react";
 
 const Wrap = styled.div`

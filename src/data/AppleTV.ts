@@ -347,7 +347,7 @@ export default [
     image: SlowHorses,
     isShow: true,
     episodes: 36,
-    episodesComplete: 31,
+    episodesComplete: 33,
     length: "5 Seasons",
   },
   {
@@ -391,7 +391,7 @@ export default [
     image: Stick,
     isShow: true,
     episodes: 20,
-    episodesComplete: 13,
+    episodesComplete: 14,
     length: "2 Seasons",
   },
   {
@@ -558,7 +558,7 @@ export default [
     image: CriminalRecord,
     isShow: true,
     episodes: 16,
-    episodesComplete: 2,
+    episodesComplete: 3,
     length: "2 Seasons",
   },
   {
@@ -916,7 +916,7 @@ export default [
     image: Acapulco,
     isShow: true,
     episodes: 40,
-    episodesComplete: 2,
+    episodesComplete: 7,
     length: "4 Seasons",
   },
   {
@@ -1434,7 +1434,7 @@ export default [
     image: PresumedInnocent,
     isShow: true,
     episodes: 8,
-    episodesComplete: 0,
+    episodesComplete: 5,
     length: "1 Season",
   },
   {
@@ -1487,7 +1487,7 @@ export default [
     image: Franklin,
     isShow: true,
     episodes: 8,
-    episodesComplete: 0,
+    episodesComplete: 8,
     length: "1 Season",
   },
   {
@@ -2114,7 +2114,7 @@ export default [
     image: MosquitoCoast,
     isShow: true,
     episodes: 17,
-    episodesComplete: 0,
+    episodesComplete: 3,
     length: "2 Seasons",
   },
   {
@@ -2721,7 +2721,7 @@ export default [
     image: LosingAlice,
     isShow: true,
     episodes: 8,
-    episodesComplete: 0,
+    episodesComplete: 1,
     length: "1 Season",
   },
   {
@@ -2940,7 +2940,7 @@ export default [
     image: ChasingMichelinStars,
     isShow: true,
     episodes: 16,
-    episodesComplete: 0,
+    episodesComplete: 2,
     length: "2 Seasons",
   },
   {
@@ -2977,7 +2977,7 @@ export default [
     image: TwelveTwelveTwelve,
     isShow: true,
     episodes: 8,
-    episodesComplete: 2,
+    episodesComplete: 3,
     length: "1 Season",
   },
   {
@@ -2985,6 +2985,7 @@ export default [
     title: "Being Heumann",
     image: BeingHeumann,
     isShow: false,
+    completion: 0,
     length: "2h 7min",
   },
   {
@@ -2993,7 +2994,7 @@ export default [
     image: Nocturne,
     isShow: true,
     episodes: 10,
-    episodesComplete: 4,
+    episodesComplete: 5,
     length: "1 Season",
   },
   {
@@ -3060,7 +3061,7 @@ export default [
     image: AwkwafinaUnlikelyCook,
     isShow: true,
     episodes: 8,
-    episodesComplete: 3,
+    episodesComplete: 4,
     length: "1 Season",
   },
   {
@@ -3086,7 +3087,7 @@ export default [
     image: DropsOfGod,
     isShow: true,
     episodes: 16,
-    episodesComplete: 8,
+    episodesComplete: 10,
     length: "2 Seasons",
   },
   {
