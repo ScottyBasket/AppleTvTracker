@@ -916,7 +916,7 @@ export default [
     image: Acapulco,
     isShow: true,
     episodes: 40,
-    episodesComplete: 7,
+    episodesComplete: 9,
     length: "4 Seasons",
   },
   {
@@ -1434,7 +1434,7 @@ export default [
     image: PresumedInnocent,
     isShow: true,
     episodes: 8,
-    episodesComplete: 5,
+    episodesComplete: 8,
     length: "1 Season",
   },
   {
@@ -2514,7 +2514,7 @@ export default [
     title: "Swan Song",
     image: SwanSong,
     isShow: false,
-    completion: 0,
+    completion: 100,
     length: "1h 51min",
   },
   {
@@ -2940,7 +2940,7 @@ export default [
     image: ChasingMichelinStars,
     isShow: true,
     episodes: 16,
-    episodesComplete: 2,
+    episodesComplete: 4,
     length: "2 Seasons",
   },
   {
