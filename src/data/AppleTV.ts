@@ -323,6 +323,7 @@ import FraggleRockHolidayGift from "../assets/CoverArt/Apple_TV_Fraggle_Rock_A_H
 import FleetwoodMacTheChain from "../assets/CoverArt/Apple_TV_Fleetwood_Mac_The_Chain_key_art_16x9.jpg";
 import DaysOfSnoopy from "../assets/CoverArt/Apple_TV_12_Days_of_Snoopy_key_art_16x9.png";
 import ShesFine from "../assets/CoverArt/Apple_TV_Shes_Fine_Key_Art_16_9.jpg";
+import Timberlake from "../assets/CoverArt/Apple_TV_Timberlake_Key_Art.png";
 export default [
   {
     id: 1,
@@ -391,7 +392,7 @@ export default [
     image: Stick,
     isShow: true,
     episodes: 20,
-    episodesComplete: 14,
+    episodesComplete: 15,
     length: "2 Seasons",
   },
   {
@@ -558,7 +559,7 @@ export default [
     image: CriminalRecord,
     isShow: true,
     episodes: 16,
-    episodesComplete: 3,
+    episodesComplete: 4,
     length: "2 Seasons",
   },
   {
@@ -925,7 +926,7 @@ export default [
     image: Smoke,
     isShow: true,
     episodes: 9,
-    episodesComplete: 0,
+    episodesComplete: 9,
     length: "1 Season",
   },
   {
@@ -2253,7 +2254,7 @@ export default [
     title: "Snoopy Presents: Lucy's School A tribute to teachers!",
     image: LucysSchool,
     isShow: false,
-    completion: 0,
+    completion: 100,
     length: "38min",
   },
   {
@@ -2969,7 +2970,8 @@ export default [
     title: "Way of the Warrior Kid",
     image: WayOfTheWarriorKid,
     isShow: false,
-    length: "Coming Soon",
+    completion: 100,
+    length: "1h 46min",
   },
   {
     id: 306,
@@ -2977,7 +2979,7 @@ export default [
     image: TwelveTwelveTwelve,
     isShow: true,
     episodes: 8,
-    episodesComplete: 3,
+    episodesComplete: 4,
     length: "1 Season",
   },
   {
@@ -2994,7 +2996,7 @@ export default [
     image: Nocturne,
     isShow: true,
     episodes: 10,
-    episodesComplete: 5,
+    episodesComplete: 6,
     length: "1 Season",
   },
   {
@@ -3061,7 +3063,7 @@ export default [
     image: AwkwafinaUnlikelyCook,
     isShow: true,
     episodes: 8,
-    episodesComplete: 4,
+    episodesComplete: 5,
     length: "1 Season",
   },
   {
@@ -3131,6 +3133,13 @@ export default [
     id: 325,
     title: "She's Fine",
     image: ShesFine,
+    isShow: false,
+    length: "Coming Soon",
+  },
+  {
+    id: 326,
+    title: "TIMBERLAKE",
+    image: Timberlake,
     isShow: false,
     length: "Coming Soon",
   },
